@@ -1,7 +1,7 @@
 .vscode
 .venv
 
-input/*
+input/google-smartphone-decimeter-challenge/*
 !.gitkeep
 
 # Created by https://www.gitignore.io/api/macos,python
