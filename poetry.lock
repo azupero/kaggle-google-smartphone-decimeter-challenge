@@ -954,6 +954,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pynmea2"
+version = "1.18.0"
+description = "Python library for the NMEA 0183 protcol"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyparsing"
 version = "2.4.7"
 description = "Python parsing module"
@@ -1312,7 +1320,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1e15206821c9ce7996a216e7d351ce4cdacc4d6141d001a0411fb1ec5505d2f0"
+content-hash = "b2d37756568862a0fa0d6884377bf0d09d1ecaaeb60b44a622860b122c10ec4e"
 
 [metadata.files]
 anyio = [
@@ -1849,6 +1857,10 @@ pygments = [
 pyhamcrest = [
     {file = "PyHamcrest-2.0.2-py3-none-any.whl", hash = "sha256:7ead136e03655af85069b6f47b23eb7c3e5c221aa9f022a4fbb499f5b7308f29"},
     {file = "PyHamcrest-2.0.2.tar.gz", hash = "sha256:412e00137858f04bde0729913874a48485665f2d36fe9ee449f26be864af9316"},
+]
+pynmea2 = [
+    {file = "pynmea2-1.18.0-py3-none-any.whl", hash = "sha256:098f9ffd89c4a6c5e137b8b59e5b38194888d4a557c50b003ebcf2c3c15ec22e"},
+    {file = "pynmea2-1.18.0.tar.gz", hash = "sha256:e340d3327ebf09683d09466a52541dfcccb98bde9cb661cab2d3eeb72ea424ad"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
