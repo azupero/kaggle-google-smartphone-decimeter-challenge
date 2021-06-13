@@ -19,6 +19,11 @@ sweetviz = "^2.1.2"
 ptitprince = "^0.2.5"
 matplotlib-venn = "^0.11.6"
 pynmea2 = "^1.18.0"
+ipywidgets = "^7.6.3"
+osmnx = "^1.1.1"
+momepy = "^0.4.4"
+geopandas = "^0.9.0"
+folium = "^0.12.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
