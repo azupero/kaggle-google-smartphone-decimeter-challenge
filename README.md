@@ -64,3 +64,9 @@ GNSSログと等価な補足情報
     - [Road detection and creating grid points](https://www.kaggle.com/kuto0633/road-detection-and-creating-grid-points/comments)
     - indoorの後処理でもあったSnap to Gridを本コンペで試したみた感じ
     - 完全にはグリッドを作りきれていないのでこれから工夫してみる必要がありそう
+### 2021-06-14
+- `nb004`
+    - [GSDC phones mean prediction](https://www.kaggle.com/t88take/gsdc-phones-mean-prediction)
+    - kalmanfilterを用いた予測
+- ファイル名にも出てくる`SPAN`って何？
+    - ノバテル社の高精度GNSS受信機
