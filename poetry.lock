@@ -1433,6 +1433,22 @@ test = ["pytest", "pytest-cov"]
 vectorized = ["numpy"]
 
 [[package]]
+name = "simdkalman"
+version = "1.0.1"
+description = "Kalman filters vectorized as Single Instruction, Multiple Data"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = ">=1.9.0"
+
+[package.extras]
+dev = ["check-manifest"]
+docs = ["sphinx"]
+test = ["nose"]
+
+[[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1622,7 +1638,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "9abafcd3701bc9580364ef150d0e407832b62168af751def13785b3e60a5be67"
+content-hash = "b170e7efd0bfd1f61b8604a7441820deb86224a02f6ba294865c1d1ee3c048a5"
 
 [metadata.files]
 anyio = [
@@ -2510,6 +2526,9 @@ shapely = [
     {file = "Shapely-1.7.1-cp39-cp39-win32.whl", hash = "sha256:2df5260d0f2983309776cb41bfa85c464ec07018d88c0ecfca23d40bfadae2f1"},
     {file = "Shapely-1.7.1-cp39-cp39-win_amd64.whl", hash = "sha256:a5c3a50d823c192f32615a2a6920e8c046b09e07a58eba220407335a9cd2e8ea"},
     {file = "Shapely-1.7.1.tar.gz", hash = "sha256:1641724c1055459a7e2b8bbe47ba25bdc89554582e62aec23cb3f3ca25f9b129"},
+]
+simdkalman = [
+    {file = "simdkalman-1.0.1-py2.py3-none-any.whl", hash = "sha256:0dd7de702a9c6320950daada6c393ab9b8d2db517c05f1632ce6853e0096fa82"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
