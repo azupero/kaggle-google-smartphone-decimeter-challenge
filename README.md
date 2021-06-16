@@ -76,3 +76,10 @@ GNSSログと等価な補足情報
     - metricの関数
 - GNSSとtruthのプロットをしっかり見ないといけない
 - 試験車両におけるアンテナとスマホの位置関係を後処理に加えるだけでも効果あるのでは？
+### 2021-06-16
+- discussionに目を通した
+    - [About the order of post processing](https://www.kaggle.com/c/google-smartphone-decimeter-challenge/discussion/245221)
+        - 後処理の順番が大事らしい
+    - [Our Current Approach and What We're Interested to](https://www.kaggle.com/c/google-smartphone-decimeter-challenge/discussion/244752)
+        - 機械学習モデルでdirectに予測するより後処理のみで上位にいるチームが多い
+        - cost minimizationは今のところめちゃくちゃ有用という感じでもなさそう
