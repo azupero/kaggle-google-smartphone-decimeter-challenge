@@ -83,3 +83,8 @@ GNSSログと等価な補足情報
     - [Our Current Approach and What We're Interested to](https://www.kaggle.com/c/google-smartphone-decimeter-challenge/discussion/244752)
         - 機械学習モデルでdirectに予測するより後処理のみで上位にいるチームが多い
         - cost minimizationは今のところめちゃくちゃ有用という感じでもなさそう
+### 2021-06-17
+- `nb005`
+    - [Baseline post-processing by outlier correction](https://www.kaggle.com/dehokanta/baseline-post-processing-by-outlier-correction)
+    - このnotebookでは時刻tにおけるt-1, t+1との距離差の2σより外の値を外れ値としている
+        - `nb004`は閾値でやっている
