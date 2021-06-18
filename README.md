@@ -88,3 +88,7 @@ GNSSログと等価な補足情報
     - [Baseline post-processing by outlier correction](https://www.kaggle.com/dehokanta/baseline-post-processing-by-outlier-correction)
     - このnotebookでは時刻tにおけるt-1, t+1との距離差の2σより外の値を外れ値としている
         - `nb004`は閾値でやっている
+### 2021-06-21
+- `nb006`
+    - [GSDC: Position shift](https://www.kaggle.com/wrrosa/gsdc-position-shift)
+    - 予測値のシフト
