@@ -92,3 +92,19 @@ GNSSログと等価な補足情報
 - `nb006`
     - [GSDC: Position shift](https://www.kaggle.com/wrrosa/gsdc-position-shift)
     - 予測値のシフト
+        - ある時点の座標と一つ前の座標との距離差に係数をかけてシフトさせている
+### 2021-06-22
+- `nb007`
+    - 後処理を組みあせてbaselineを補正。
+        - [About the order of post processing](https://www.kaggle.com/c/google-smartphone-decimeter-challenge/discussion/245221)の内容に沿って後処理の順番を決めた。
+        - optunaのサンプリング分布は正規分布も試してみたいかも
+    - 初subは5.538でブロンズ。序盤とはいえメダル圏内に入れて嬉しい。
+- `nb008`
+    - position shiftのパラメーター`a`を変更
+    - score変わらず
+- `nb009`
+    - collection outliersの外れ値の範囲を3σより外に変更
+    - 0.002上がった
+- `nb010`
+    - removing deviceに`Mi8`を追加
+    - 0.004下がった
