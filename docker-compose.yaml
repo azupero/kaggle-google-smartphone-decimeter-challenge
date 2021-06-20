@@ -1,0 +1,14 @@
+version: '3'
+services:
+  google-smartphone-decimeter-challenge:
+    build: ./
+    image: google-smartphone-decimeter-challenge
+    container_name: google-smartphone-decimeter-challenge
+    user: root
+    volumes:
+      - $PWD:/analysis
+    tty: true
+    deploy:
+      resources:
+        limits:
+          memory: 5g
